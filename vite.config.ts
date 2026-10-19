@@ -13,3 +13,7 @@ export default defineConfig({
     server: { entry: "server" },
   },
 });
+export default defineConfig({
+  base: '/tumpuan/', // Tambahkan baris ini sesuai nama repositori Anda
+  // ... biarkan kode pengaturan lainnya tetap seperti semula
+})
